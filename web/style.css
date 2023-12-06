@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 6, 2023, 4:04:21 PM
+    Author     : Tuan Hung
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0.5em;
+}
+
+.navbar a {
+    color: #e7e7e7;
+    font-weight: bolder;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .brand {
+    display: block;
+    color: #e7e7e7;
+    padding: 0 24px;
+}
+
+.navbar ul li a {
+    color: #e7e7e7;
+    padding: 24px;
+    display: block;
+    transition: ease-in-out 0.5s;
+}
+
+.navbar ul a:hover,
+.navbar ul a:focus {
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+.navbar .search_bar{
+    margin-right: 1em;
+}
+
+.card {
+    border: 0.2em solid rgba(255, 255, 255, 0.5);
+    border-radius: 1em;
+    width: 300px;
+    margin: 2.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
